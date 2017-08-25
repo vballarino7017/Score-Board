@@ -16,7 +16,7 @@ class BaseballViewController: UIViewController {
         
     }
     @IBAction func Third(_ sender: UIButton) {
-        thirdbase.backgroundColor = UIColor.yellow
+        sender.backgroundColor = UIColor.yellow
     }
     @IBAction func Second(_ sender: UIButton) {
     }
