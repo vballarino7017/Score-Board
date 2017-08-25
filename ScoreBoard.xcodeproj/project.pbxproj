@@ -15,6 +15,8 @@
 		496208421F4FD2C900E63406 /* ScoreBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496208411F4FD2C900E63406 /* ScoreBoardTests.swift */; };
 		4962084D1F4FD2CA00E63406 /* ScoreBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4962084C1F4FD2CA00E63406 /* ScoreBoardUITests.swift */; };
 		4962085D1F4FD82200E63406 /* basketballViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4962085C1F4FD82200E63406 /* basketballViewController.swift */; };
+		4962085F1F4FE2BD00E63406 /* FootballViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4962085E1F4FE2BD00E63406 /* FootballViewController.swift */; };
+		496208611F4FE72C00E63406 /* BaseballViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496208601F4FE72C00E63406 /* BaseballViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4962084C1F4FD2CA00E63406 /* ScoreBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreBoardUITests.swift; sourceTree = "<group>"; };
 		4962084E1F4FD2CA00E63406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4962085C1F4FD82200E63406 /* basketballViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = basketballViewController.swift; path = ../basketballViewController.swift; sourceTree = "<group>"; };
+		4962085E1F4FE2BD00E63406 /* FootballViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FootballViewController.swift; sourceTree = "<group>"; };
+		496208601F4FE72C00E63406 /* BaseballViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseballViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +106,10 @@
 				4962082C1F4FD2C900E63406 /* AppDelegate.swift */,
 				4962082E1F4FD2C900E63406 /* ViewController.swift */,
 				496208301F4FD2C900E63406 /* Main.storyboard */,
+				4962085E1F4FE2BD00E63406 /* FootballViewController.swift */,
 				4962085C1F4FD82200E63406 /* basketballViewController.swift */,
 				496208331F4FD2C900E63406 /* Assets.xcassets */,
+				496208601F4FE72C00E63406 /* BaseballViewController.swift */,
 				496208351F4FD2C900E63406 /* LaunchScreen.storyboard */,
 				496208381F4FD2C900E63406 /* Info.plist */,
 			);
@@ -266,7 +272,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4962085D1F4FD82200E63406 /* basketballViewController.swift in Sources */,
+				4962085F1F4FE2BD00E63406 /* FootballViewController.swift in Sources */,
 				4962082F1F4FD2C900E63406 /* ViewController.swift in Sources */,
+				496208611F4FE72C00E63406 /* BaseballViewController.swift in Sources */,
 				4962082D1F4FD2C900E63406 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
