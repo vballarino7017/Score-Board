@@ -17,6 +17,7 @@
 		4962085D1F4FD82200E63406 /* basketballViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4962085C1F4FD82200E63406 /* basketballViewController.swift */; };
 		4962085F1F4FE2BD00E63406 /* FootballViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4962085E1F4FE2BD00E63406 /* FootballViewController.swift */; };
 		496208611F4FE72C00E63406 /* BaseballViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496208601F4FE72C00E63406 /* BaseballViewController.swift */; };
+		49FF37111F512089005FE1D4 /* GolfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FF37101F512089005FE1D4 /* GolfViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		4962085C1F4FD82200E63406 /* basketballViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = basketballViewController.swift; path = ../basketballViewController.swift; sourceTree = "<group>"; };
 		4962085E1F4FE2BD00E63406 /* FootballViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FootballViewController.swift; sourceTree = "<group>"; };
 		496208601F4FE72C00E63406 /* BaseballViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseballViewController.swift; sourceTree = "<group>"; };
+		49FF37101F512089005FE1D4 /* GolfViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GolfViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				4962082C1F4FD2C900E63406 /* AppDelegate.swift */,
 				4962082E1F4FD2C900E63406 /* ViewController.swift */,
 				496208301F4FD2C900E63406 /* Main.storyboard */,
+				49FF37101F512089005FE1D4 /* GolfViewController.swift */,
 				4962085E1F4FE2BD00E63406 /* FootballViewController.swift */,
 				4962085C1F4FD82200E63406 /* basketballViewController.swift */,
 				496208331F4FD2C900E63406 /* Assets.xcassets */,
@@ -273,6 +276,7 @@
 			files = (
 				4962085D1F4FD82200E63406 /* basketballViewController.swift in Sources */,
 				4962085F1F4FE2BD00E63406 /* FootballViewController.swift in Sources */,
+				49FF37111F512089005FE1D4 /* GolfViewController.swift in Sources */,
 				4962082F1F4FD2C900E63406 /* ViewController.swift in Sources */,
 				496208611F4FE72C00E63406 /* BaseballViewController.swift in Sources */,
 				4962082D1F4FD2C900E63406 /* AppDelegate.swift in Sources */,
@@ -526,6 +530,7 @@
 				496208531F4FD2CA00E63406 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		496208541F4FD2CA00E63406 /* Build configuration list for PBXNativeTarget "ScoreBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +539,7 @@
 				496208561F4FD2CA00E63406 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		496208571F4FD2CA00E63406 /* Build configuration list for PBXNativeTarget "ScoreBoardUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +548,7 @@
 				496208591F4FD2CA00E63406 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
